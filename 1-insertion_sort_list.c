@@ -3,7 +3,7 @@
 /**
  * swap_node - A function that swaps two nodes in a doubly-linked list
  * Desription - Swaps two nodes in a list
- * h: A pointer to the head of the list.
+ * @h: A pointer to the head of the list.
  * @n1: A pointer to the first node to swap.
  * @n2: The second node to swap.
  */
@@ -23,12 +23,6 @@ void swap_node(listint_t **h, listint_t **n1, listint_t *n2)
 }
 
 /**
- * insertion_sort_list - A function that sorts a doubly linked list of integers
- * in ascending order using insertion sort algorithm
- * Description - Sorts a list using insertion sort algorithm
- * @list:
- * Return: Nothing
- *//**
  * insertion_sort_list - A function that sorts a doubly linked list of integers
  * in ascending order using insertion sort algorithm
  * Description - Sorts a list using insertion sort algorithm
