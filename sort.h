@@ -18,6 +18,18 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
+/**
+ * enum bool_values-  A function that enumerates Boolean values.
+ * Description - Emuneration of Boolean values
+ * @false: Equals 0.
+ * @true: Equals 1.
+ */
+typedef enum bool_values
+{
+	false = 0,
+	true
+} bool_values;
+
 /**Given code and prototypes**/
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
